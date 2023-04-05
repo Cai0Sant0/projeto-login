@@ -32,7 +32,7 @@ main{
     transform: translate(-50%,-50%);
     background-color: white;
     overflow: hidden;
-    width: 250px;
+    width: 285px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -44,11 +44,18 @@ main{
 #login > #imagem{
     display: block;
     background: #b8470fc6 url(../imagens/pexels-aleksandar-pasaric-2603464.jpg) no-repeat;
-    height: 250px;
+    height: 230px;
     background-size:cover;
     background-position: center top;
 }
 #form{
     display: block;
     padding: 20px;
+}
+#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form > p{
+    font-size: 0.8em;
 }
