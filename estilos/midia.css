@@ -33,6 +33,7 @@ telas grandes - 1080px até 1920px
    }
    #form > p{
     font-size: 1.2em;
+    margin-bottom: 15px;
    }
 
 }
@@ -62,5 +63,6 @@ telas grandes - 1080px até 1920px
     }
     #form > p{
         font-size: 1.3em;
+        margin: 15px 0px;
     }
 }
