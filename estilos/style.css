@@ -59,3 +59,47 @@ main{
 #form > p{
     font-size: 0.8em;
 }
+form >.campo1,.campo2{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #d14e0dc6;
+    border-radius: 5px;
+    margin: 5px 0px;
+    color: white;
+}
+form>input[type=submit]{
+    display: block;
+    font-size: 0.9em;
+    width: 100%;
+    height: 30px;
+    background-color: #03151F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+form>input[type=submit]:hover{
+    background-color: #174a66;
+    color:black ;
+}
+form>.botao{
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    height: 40px;
+    background-color: #060d10;
+    margin-top: 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+form>.botao:hover{
+    background-color: #022a4089;
+    color: black;
+}
+form>.botao > span{
+    font-size: 0.9em;
+    padding-top: 10px;
+}
